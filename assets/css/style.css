@@ -1,0 +1,48 @@
+@font-face {
+  font-family: "Elegant";
+  src: url(../font/PinyonScript-Regular.ttf) format("truetype");
+}
+
+#listOfIngredients li {
+  font-style: italic;
+}
+
+#listOfSteps li {
+  list-style: none;
+  font-size: 1.5em;
+  color: #231c10;
+}
+h1 {
+  font-family: "Elegant";
+  text-align: center;
+  font-size: 10rem;
+  color: #231c10;
+  text-decoration: underline;
+}
+h3 {
+font-family: "Elegant";
+  color: #bbb3ad;
+  font-size: 2.5em;
+  font-weight: 800;
+}
+
+aside {
+  background-color: #231c10;
+  padding: 2em;
+  color: #d0cdc3;
+}
+
+body {
+  background-color: #866d4f;
+}
+
+#step {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  align-content: centers;
+}
+
+img {
+  background-size: cover;
+}
